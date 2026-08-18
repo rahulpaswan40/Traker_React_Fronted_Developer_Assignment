@@ -1,0 +1,122 @@
+{
+  "metrics": {
+    "Today": {
+      "totalRides": 2840,
+      "completedRides": 2618,
+      "cancelledRides": 142,
+      "activeDrivers": 384,
+      "totalCustomers": 2180,
+      "totalRevenue": 1485200,
+      "growth": {
+        "rides": 14.2,
+        "revenue": 18.6,
+        "drivers": 6.8,
+        "customers": 11.4
+      }
+    },
+    "Last 7 Days": {
+      "totalRides": 19450,
+      "completedRides": 18120,
+      "cancelledRides": 890,
+      "activeDrivers": 520,
+      "totalCustomers": 14600,
+      "totalRevenue": 9840000,
+      "growth": {
+        "rides": 9.8,
+        "revenue": 13.5,
+        "drivers": 4.5,
+        "customers": 8.2
+      }
+    },
+    "Last 30 Days": {
+      "totalRides": 84200,
+      "completedRides": 78900,
+      "cancelledRides": 3800,
+      "activeDrivers": 640,
+      "totalCustomers": 58400,
+      "totalRevenue": 42500000,
+      "growth": {
+        "rides": 21.4,
+        "revenue": 24.8,
+        "drivers": 12.0,
+        "customers": 18.7
+      }
+    }
+  },
+  "charts": {
+    "Today": [
+      { "date": "00:00", "label": "12 AM", "totalRides": 110, "completedRides": 102, "cancelledRides": 5, "revenue": 54000 },
+      { "date": "04:00", "label": "4 AM", "totalRides": 68, "completedRides": 64, "cancelledRides": 3, "revenue": 38000 },
+      { "date": "08:00", "label": "8 AM", "totalRides": 540, "completedRides": 498, "cancelledRides": 28, "revenue": 285000 },
+      { "date": "12:00", "label": "12 PM", "totalRides": 620, "completedRides": 574, "cancelledRides": 32, "revenue": 324000 },
+      { "date": "16:00", "label": "4 PM", "totalRides": 790, "completedRides": 732, "cancelledRides": 41, "revenue": 418000 },
+      { "date": "20:00", "label": "8 PM", "totalRides": 712, "completedRides": 648, "cancelledRides": 33, "revenue": 366200 }
+    ],
+    "Last 7 Days": [
+      { "date": "Aug 12", "label": "Wed", "totalRides": 2680, "completedRides": 2490, "cancelledRides": 120, "revenue": 1340000 },
+      { "date": "Aug 13", "label": "Thu", "totalRides": 2790, "completedRides": 2610, "cancelledRides": 115, "revenue": 1410000 },
+      { "date": "Aug 14", "label": "Fri", "totalRides": 3120, "completedRides": 2920, "cancelledRides": 140, "revenue": 1590000 },
+      { "date": "Aug 15", "label": "Sat", "totalRides": 3350, "completedRides": 3140, "cancelledRides": 155, "revenue": 1720000 },
+      { "date": "Aug 16", "label": "Sun", "totalRides": 2890, "completedRides": 2680, "cancelledRides": 135, "revenue": 1460000 },
+      { "date": "Aug 17", "label": "Mon", "totalRides": 2480, "completedRides": 2310, "cancelledRides": 105, "revenue": 1240000 },
+      { "date": "Aug 18", "label": "Tue", "totalRides": 2840, "completedRides": 2618, "cancelledRides": 142, "revenue": 1485200 }
+    ],
+    "Last 30 Days": [
+      { "date": "Week 1", "label": "Jul 20 - 26", "totalRides": 18900, "completedRides": 17700, "cancelledRides": 840, "revenue": 9450000 },
+      { "date": "Week 2", "label": "Jul 27 - Aug 2", "totalRides": 20400, "completedRides": 19100, "cancelledRides": 910, "revenue": 10200000 },
+      { "date": "Week 3", "label": "Aug 3 - 9", "totalRides": 22100, "completedRides": 20700, "cancelledRides": 990, "revenue": 11150000 },
+      { "date": "Week 4", "label": "Aug 10 - 18", "totalRides": 22800, "completedRides": 21400, "cancelledRides": 1060, "revenue": 11700000 }
+    ]
+  },
+  "vehicleStats": [
+    { "type": "Auto", "count": 1080, "percentage": 38.0, "revenue": 216000 },
+    { "type": "Sedan", "count": 820, "percentage": 28.9, "revenue": 533000 },
+    { "type": "Bike", "count": 520, "percentage": 18.3, "revenue": 78000 },
+    { "type": "SUV", "count": 280, "percentage": 9.9, "revenue": 392000 },
+    { "type": "Premium", "count": 140, "percentage": 4.9, "revenue": 266200 }
+  ],
+  "recentActivity": [
+    {
+      "id": "ACT-01",
+      "type": "ride_booked",
+      "title": "New Ride Requested",
+      "description": "Nikhil Deshmukh booked SUV from Cyber City Gurugram to Connaught Place",
+      "timestamp": "2026-08-18T20:05:30Z",
+      "rideId": "TRK-8924"
+    },
+    {
+      "id": "ACT-02",
+      "type": "ride_completed",
+      "title": "Ride Completed #TRK-8921",
+      "description": "Ramesh Gowda completed BLR Airport trip (₹1,493 via UPI)",
+      "timestamp": "2026-08-18T19:38:00Z",
+      "rideId": "TRK-8921",
+      "driverId": "DRV-101"
+    },
+    {
+      "id": "ACT-03",
+      "type": "driver_online",
+      "title": "Driver Online",
+      "description": "Vikram Singh Rathore (Innova HyCross) went Online in BKC, Mumbai",
+      "timestamp": "2026-08-18T18:40:00Z",
+      "driverId": "DRV-102"
+    },
+    {
+      "id": "ACT-04",
+      "type": "ride_cancelled",
+      "title": "Ride Cancelled #TRK-8925",
+      "description": "Ananya Sen cancelled trip in Hyderabad due to rain delay",
+      "timestamp": "2026-08-18T17:21:45Z",
+      "rideId": "TRK-8925"
+    },
+    {
+      "id": "ACT-05",
+      "type": "ride_completed",
+      "title": "Ride Completed #TRK-8923",
+      "description": "Manjunath K. completed Koramangala Auto trip (₹140 via UPI)",
+      "timestamp": "2026-08-18T18:28:00Z",
+      "rideId": "TRK-8923",
+      "driverId": "DRV-106"
+    }
+  ]
+}

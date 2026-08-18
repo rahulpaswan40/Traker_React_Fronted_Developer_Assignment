@@ -1,0 +1,128 @@
+:root {
+  /* Minimalist Design Tokens */
+  --font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --primary: #0f172a;
+  --primary-hover: #1e293b;
+  --primary-subtle: #f1f5f9;
+  --primary-accent: #2563eb;
+
+  --accent-purple: #7c3aed;
+  --accent-cyan: #0284c7;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+
+  --radius-xs: 4px;
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  --sidebar-width: 240px;
+  --navbar-height: 60px;
+  --transition-fast: 0.12s ease;
+  --transition-normal: 0.2s ease;
+}
+
+/* Minimalist Clean Light Mode (Default) */
+[data-theme='light'], :root:not([data-theme='dark']) {
+  --bg-app: #fbfbfd;
+  --bg-surface: #ffffff;
+  --bg-surface-raised: #f4f5f8;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f9fafb;
+  --bg-input: #ffffff;
+
+  --border-color: #e5e7eb;
+  --border-subtle: #f1f3f6;
+  --border-focus: #0f172a;
+
+  --text-primary: #111827;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --text-inverse: #ffffff;
+
+  --status-completed-bg: #ecfdf5;
+  --status-completed-text: #047857;
+  --status-completed-border: #a7f3d0;
+  --status-completed-dot: #10b981;
+
+  --status-ongoing-bg: #eff6ff;
+  --status-ongoing-text: #1d4ed8;
+  --status-ongoing-border: #bfdbfe;
+  --status-ongoing-dot: #3b82f6;
+
+  --status-cancelled-bg: #fff1f2;
+  --status-cancelled-text: #be123c;
+  --status-cancelled-border: #fecdd3;
+  --status-cancelled-dot: #f43f5e;
+
+  --status-pending-bg: #fffbeb;
+  --status-pending-text: #b45309;
+  --status-pending-border: #fde68a;
+  --status-pending-dot: #f59e0b;
+
+  --status-online-bg: #ecfdf5;
+  --status-online-text: #047857;
+  --status-offline-bg: #f3f4f6;
+  --status-offline-text: #6b7280;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -2px rgba(0, 0, 0, 0.02);
+  --shadow-modal: 0 20px 25px -5px rgba(0, 0, 0, 0.08), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+
+  --chart-grid: #f1f3f6;
+  --chart-tooltip-bg: #111827;
+}
+
+/* Minimalist Dark Mode */
+[data-theme='dark'] {
+  --bg-app: #090a0f;
+  --bg-surface: #0f1117;
+  --bg-surface-raised: #161922;
+  --bg-card: #12141c;
+  --bg-card-hover: #171b26;
+  --bg-input: #0b0d13;
+
+  --border-color: #1e222d;
+  --border-subtle: #171a23;
+  --border-focus: #3b82f6;
+
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --text-muted: #525e75;
+  --text-inverse: #090a0f;
+
+  --status-completed-bg: rgba(16, 185, 129, 0.08);
+  --status-completed-text: #34d399;
+  --status-completed-border: rgba(16, 185, 129, 0.2);
+  --status-completed-dot: #10b981;
+
+  --status-ongoing-bg: rgba(59, 130, 246, 0.08);
+  --status-ongoing-text: #60a5fa;
+  --status-ongoing-border: rgba(59, 130, 246, 0.2);
+  --status-ongoing-dot: #3b82f6;
+
+  --status-cancelled-bg: rgba(244, 63, 94, 0.08);
+  --status-cancelled-text: #fb7185;
+  --status-cancelled-border: rgba(244, 63, 94, 0.2);
+  --status-cancelled-dot: #f43f5e;
+
+  --status-pending-bg: rgba(245, 158, 11, 0.08);
+  --status-pending-text: #fbbf24;
+  --status-pending-border: rgba(245, 158, 11, 0.2);
+  --status-pending-dot: #f59e0b;
+
+  --status-online-bg: rgba(16, 185, 129, 0.08);
+  --status-online-text: #34d399;
+  --status-offline-bg: rgba(148, 163, 184, 0.08);
+  --status-offline-text: #94a3b8;
+
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
+  --shadow-modal: 0 20px 40px 0 rgba(0, 0, 0, 0.6);
+
+  --chart-grid: rgba(255, 255, 255, 0.04);
+  --chart-tooltip-bg: #161922;
+}
